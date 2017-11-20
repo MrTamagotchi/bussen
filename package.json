@@ -1,0 +1,25 @@
+{
+  "name": "bussen-hem",
+  "version": "1.0.0",
+  "description": "Ett kommando för att få bussen hem i skåne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Ivanov",
+  "license": "ISC",
+  "dependencies": {
+    "cli-loader": "^1.1.1",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "node-fetch": "^1.7.3",
+    "xml2js": "^0.4.19"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "bussen-hem": "index.js"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
