@@ -1,4 +1,4 @@
-# bussen-cli
+# bussen-hem
 
 A stupid little CLI-app that accesses Skånetrafikens Open API and prints a tiny timetable of the 5 coming busses. All in Swedish.
 
