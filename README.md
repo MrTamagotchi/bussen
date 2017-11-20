@@ -10,7 +10,7 @@ If you happen to live at my place or want to know when to commute from Djäknega
  * `$ npm link`
  * bam, done, wow! Now you can run `bussen-hem` anywhere, anytime.
 
-TODO - 
+## TODO - 
  * Fix stupid hacks
  * Un-hardcode the bus
  * Settings command to set your own bus
