@@ -4,6 +4,12 @@ A stupid little CLI-app that accesses Skånetrafikens Open API and prints a tiny
 
 ![preview](https://github.com/MrTamagotchi/bussen/blob/master/bussen-preview.gif?raw=true "preview")
 
+## Setup
+If you happen to live at my place or want to know when to commute from Djäknegatan to any stop in the direction "Västra Hamnen via Dockan" do the following:
+ * `$ npm install` or `$ yarn install` 
+ * `$ npm link`
+ * bam, done, wow! Now you can run `bussen-hem` anywhere, anytime.
+
 TODO - 
  * Fix stupid hacks
  * Un-hardcode the bus
