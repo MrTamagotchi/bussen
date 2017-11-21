@@ -59,6 +59,7 @@ xmlToJson(API_URL, (err, data) => {
         return console.err(`Oh no! Error! ${err}`)
     }
 
+    // so seductive
     let allBusses = data['soap:Envelope']['soap:Body'][0].GetDepartureArrivalResponse[0].GetDepartureArrivalResult[0].Lines[0].Line
 
     let myBusses = allBusses.filter(bus => {
